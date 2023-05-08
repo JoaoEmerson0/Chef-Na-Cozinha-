@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define o estilo do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Define o estilo dos links na barra de navegação */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Define o estilo da seção de destaque */
+#destaque {
+  background-image: url('pizza.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+/* Define o estilo da seção de receitas */
+section {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Define o estilo do título de cada receita */
+section h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+/* Define o estilo dos ingredientes e do modo de preparo */
+section ul, section ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+section ul li, section ol li {
+  margin-bottom: 10px;
+}
+
+/* Define o estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
