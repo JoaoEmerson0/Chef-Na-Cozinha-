@@ -1,0 +1,100 @@
+/* Estilos gerais */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+    max-width:300px;
+    max-height:200px;
+  }
+  
+  /* Estilos da barra de navegação */
+  
+  nav {
+    background-color: #663399;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1em;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Estilos dos artigos */
+  
+  section {
+    background-color: #ffffff;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  section ul, section ol {
+    margin-top: 1em;
+  }
+  
+  section li {
+    margin: 1em 0;
+  }
+  
+  /* Estilos do rodapé */
+  
+  footer {
+    background-color: #663399;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+  }
